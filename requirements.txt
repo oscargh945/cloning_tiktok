@@ -1,0 +1,25 @@
+# Testing
+# ------------------------------------------------------------------------------
+pytest==7.2.2 # https://docs.pytest.org/en/latest/
+
+# Code quality
+# ------------------------------------------------------------------------------
+flake8==3.9.2  # https://github.com/PyCQA/flake8
+flake8-isort==4.0.0  # https://github.com/gforcada/flake8-isort
+black==21.6b0  # https://github.com/psf/black
+
+# Test
+anyio==3.6.2
+pytest-asyncio==0.20.3
+pytest-tornasync==0.6.0.post2
+pytest-trio==0.8.0
+pytest-twisted==1.14.0
+Twisted==22.10.0
+
+# Python
+python-dotenv==1.0.0 # https://saurabh-kumar.com/python-dotenv/
+aiohttp==3.8.4 # https://docs.aiohttp.org/en/stable/
+bs4==0.0.1 # https://www.crummy.com/software/BeautifulSoup/
+selenium==4.11.2l # https://www.selenium.dev/c
+boto3==1.26.112 # https://aws.amazon.com/sdk-for-python/
+lxml==4.9.2
